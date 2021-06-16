@@ -1,0 +1,11 @@
+---
+application:
+  name: "tgvc-userbbot"
+  project: "Musicbotpart2"
+  organization: "QoveryCommunity"
+routers:
+- name: "main-tgvc-userbbot"
+  routes:
+  - application_name: "tgvc-userbbot"
+    paths:
+    - "/*"
